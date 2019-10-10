@@ -1,0 +1,8 @@
+<craftworx>
+
+<!-- Crossbow Reload Adjustment -->
+<set xpath="/items/item[@name='gunCrossbowIron']/effect_group[@name='gunCrossbowIron']/passive_effect[@name='ReloadSpeedMultiplier'][@operation='base_set']/@value">.7</set>
+
+<set xpath="/items/item[@name='gunCrossbowCompound']/effect_group[@name='gunCrossbowCompound']/passive_effect[@name='ReloadSpeedMultiplier'][@operation='base_set']/@value">.7</set>
+
+</craftworx>
