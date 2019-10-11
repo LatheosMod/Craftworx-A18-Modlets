@@ -1,0 +1,20 @@
+<craftworx>
+
+<!-- Double-barrel shotgun alt-fire melee attack -->
+<remove xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@class='Action1']" />
+<append xpath="/items/item[@name='gunDoubleBarrelShotgun']" >
+	<property class="Action1"> 
+		<property name="Class" value="Melee" />
+			<property name="Delay" value="1.33" />  
+			<property name="Range" value="2.2" /> 
+			<property name="Sphere" value="0.2" />
+			<property name="Sound_start" value="swoosh" />
+			<property name="Stamina_usage" value="6" /> 
+			<property name="Buff" value="buffInjuryStunned01"/>
+			<!-- <passive_effect name="BuffProcChance" operation="base_set" value=".9" tags="buffInjuryStunned01"/> -->
+	</property>
+	
+</append>
+
+
+</craftworx>
