@@ -3,25 +3,25 @@
 <append xpath="/recipes">
 	
 <!-- Scrap Iron Tools -->
-<recipe name="meleeToolFireaxeScrapIron" count="1"> <!-- meleeToolFireaxeScrapIron -->
+<recipe name="meleeToolFireaxeScrapIron" count="1" tags="perkMiner69r"> 
 	<ingredient name="resourceScrapIron" count="55"/>
 	<ingredient name="resourceYuccaFibers" count="5"/>
 	<ingredient name="resourceWood" count="2"/>
 </recipe>
 
-<recipe name="meleeToolPickaxeScrapIron" count="1"> <!-- meleeToolPickaxeScrapIron --> 
+<recipe name="meleeToolPickaxeScrapIron" count="1" tags="perkMiner69r"> 
 	<ingredient name="resourceScrapIron" count="80"/>
 	<ingredient name="resourceYuccaFibers" count="5"/>
 	<ingredient name="resourceWood" count="3"/>
 </recipe>
 
-<recipe name="meleeToolShovelScrapIron" count="1"> <!-- meleeToolShovelScrapIron -->
+<recipe name="meleeToolShovelScrapIron" count="1" tags="perkMiner69r"> 
 	<ingredient name="resourceScrapIron" count="60"/>
 	<ingredient name="resourceYuccaFibers" count="5"/>
 	<ingredient name="resourceWood" count="3"/>
 </recipe>
 
-<recipe name="meleeToolKnifeScrapIron" count="1"> <!-- meleeToolShivScrapIron -->
+<recipe name="meleeToolKnifeScrapIron" count="1" tags="perkDeepCuts"> 
 	<ingredient name="resourceScrapIron" count="12"/>
 	<ingredient name="resourceWood" count="1"/>
 	<ingredient name="resourceYuccaFibers" count="5"/>
