@@ -19,8 +19,8 @@
 	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="CustomIcon" value="ammoArrowScrapIron" />
-	<property name="CustomIconTint" value="AD3C0B" />
-	<property name="TintColor" value="173,60,11" />
+	<property name="CustomIconTint" value="FF8000" />
+	<property name="TintColor" value="255,128,0" />
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value=".5"/>
 	<property name="StickyColliderUp" value="2"/>
@@ -73,8 +73,8 @@
 	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="CustomIcon" value="ammoCrossbowBoltScrapIron" />
-	<property name="CustomIconTint" value="AD3C0B" />
-	<property name="TintColor" value="173,60,11" />
+	<property name="CustomIconTint" value="FF8000" />
+	<property name="TintColor" value="255,128,0" />
 	<property name="Material" value="Mmetal"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value=".325"/>
@@ -127,8 +127,8 @@
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/fireaxePrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="CustomIcon" value="meleeToolFireaxeIron" />
-	<property name="CustomIconTint" value="AD3C0B" />
-	<property name="TintColor" value="173,60,11" />
+	<property name="CustomIconTint" value="FF8000" />
+	<property name="TintColor" value="255,128,0" />
 	<property name="RepairTools" value="resourceScrapIron"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -213,8 +213,8 @@
 	<property name="HoldType" value="63"/>
 	<property name="Meshfile" value="#Other/Items?Tools/pickaxe_ironPrefab.prefab"/>
 	<property name="CustomIcon" value="meleeToolPickaxeIron" />
-	<property name="CustomIconTint" value="AD3C0B" />
-	<property name="TintColor" value="173,60,11" />
+	<property name="CustomIconTint" value="FF8000" />
+	<property name="TintColor" value="255,128,0" />
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceScrapIron"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -292,10 +292,10 @@
 	<property name="Tags" value="melee,grunting,medium,tool,shovel,attStrength,perkMiner69r,perkMotherLode"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="18"/>
-	<property name="Meshfile" value="#Other/Items?Tools/stone_shovelPrefab.prefab"/>
+	<property name="Meshfile" value="#Other/Items?Tools/shovel_ironPrefab.prefab"/>
 	<property name="CustomIcon" value="meleeToolShovelIron" />
-	<property name="CustomIconTint" value="AD3C0B" />
-	<property name="TintColor" value="173,60,11" />
+	<property name="CustomIconTint" value="FF8000" />
+	<property name="TintColor" value="255,128,0" />
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceScrapIron"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -357,8 +357,8 @@
 	<property name="HoldType" value="36"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab"/>
 	<property name="CustomIcon" value="meleeToolKnifeIron"/>
-	<property name="CustomIconTint" value="AD3C0B"/>
-	<property name="TintColor" value="173,60,11" />
+	<property name="CustomIconTint" value="FF8000"/>
+	<property name="TintColor" value="255,128,0" />
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceScrapIron"/>
 	<property name="EconomicValue" value="125"/>
@@ -438,7 +438,7 @@
 	</effect_group>
 	
 	<property name="Group" value="Ammo/Weapons,Basics"/>
-	<property name="DescriptionKey" value="meleeToolShivScrapIronDesc"/>
+	<property name="DescriptionKey" value="meleeToolKnifeScrapIronDesc"/>
 </item>
 
 </append>
