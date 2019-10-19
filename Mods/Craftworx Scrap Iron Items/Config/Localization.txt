@@ -1,16 +1,16 @@
 ﻿Key,Source,Context,Changes,English
 
 meleeToolFireaxeScrapIron,items,Tool,New,Scrap Iron Axe,,
-meleeToolFireaxeScrapIronDesc,items,Tool,New,"The scrap iron axe does better damage than stone, but isn't as good as forged iron. Repair with scrap iron.",,
+meleeToolFireaxeScrapIronDesc,items,Tool,New,"The scrap iron axe does better damage than stone, but isn't as good as forged iron.\n\nRepair with scrap iron.",,
 meleeToolPickaxeScrapIron,items,Tool,New,Scrap Iron Pickaxe,,
-meleeToolPickaxeScrapIronDesc,items,Tool,New,"The scrap iron pickaxe is a better choice for mining than the stone axe, but isn't as good as the forged iron pickaxe. Repair with scrap iron.",,
+meleeToolPickaxeScrapIronDesc,items,Tool,New,"The scrap iron pickaxe is a better choice for mining than the stone axe, but isn't as good as the forged iron pickaxe.\n\nRepair with scrap iron.",,
 meleeToolShovelScrapIron,items,Tool,New,Scrap Iron Shovel,,
-meleeToolShovelScrapIronDesc,items,Tool,New,"The scrap iron shovel is better than the stone shovel, but isn't as good as forged iron. Repair with scrap iron.",,
+meleeToolShovelScrapIronDesc,items,Tool,New,"The scrap iron shovel is better than the stone shovel, but isn't as good as forged iron.\n\nRepair with scrap iron.",,
 meleeToolKnifeScrapIron,items,Melee,New,Scrap Iron Knife,,
-meleeToolKnifeScrapIronDesc,items,Melee,New,"A flimsy knife made from scrap iron. Good for skinning animals, and not much else. Repair with scrap iron.",,
+meleeToolKnifeScrapIronDesc,items,Melee,New,"A flimsy knife made from scrap iron. Good for skinning animals, and not much else.\n\nRepair with scrap iron.",,
 
 ammoArrowScrapIron,items,Ammo,New,Scrap Arrow (Ammo),,
-ammoArrowScrapIronDesc,items,Ammo,New,"Ammunition for a bow. Slightly better than a stone-tipped arrow, not as good as iron. Crafted from scrap iron, polymers, and wood. Hold reload to use alternate ammo.",,
+ammoArrowScrapIronDesc,items,Ammo,New,"Ammunition for a bow. Slightly better than a stone-tipped arrow, not as good as iron.\n\nCrafted from scrap iron, polymers, and wood.\nHold reload to use alternate ammo.",,
 ammoCrossbowBoltScrapIron,items,Ammo,New,Scrap Bolt (Ammo),,
-ammoCrossbowBoltScrapIronDesc,items,Ammo,New,"Ammunition for a crossbow. Slightly better than a stone-tipped bolt, not as good as iron. Crafted from scrap iron, polymers, and wood. Hold reload to use alternate ammo.",,
+ammoCrossbowBoltScrapIronDesc,items,Ammo,New,"Ammunition for a crossbow. Slightly better than a stone-tipped bolt, not as good as iron.\n\nCrafted from scrap iron, polymers, and wood.\nHold reload to use alternate ammo.",,
 
