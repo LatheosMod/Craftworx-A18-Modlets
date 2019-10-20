@@ -1,0 +1,18 @@
+<craftworx>
+
+<!-- QoL -->
+
+<append xpath="/blocks/block[@name='jailDoorStatic']">
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+</append>
+
+<append xpath="/blocks/block[@name='jailDoorStaticCentered']">
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+</append>
+
+<append xpath="/blocks/block[@name='jailBars']">
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+</append>
+
+
+</craftworx>
