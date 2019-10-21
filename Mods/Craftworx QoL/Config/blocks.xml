@@ -1,7 +1,7 @@
 <craftworx>
 
 <!-- QoL -->
-
+<!-- Add Jail Bars and Doors to Workbench -->
 <append xpath="/blocks/block[@name='jailDoorStatic']">
 	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 </append>
@@ -12,6 +12,30 @@
 
 <append xpath="/blocks/block[@name='jailBars']">
 	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+</append>
+
+<!-- Add resources for havesting crushed cars -->
+<append xpath="blocks/block[@name='crushedCars']">
+	<drop event="Harvest" name="crushedCars" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="ammoGasCan" count="50,250" prob="0.3" tag="salvageHarvest"/> 
+	<drop event="Harvest" name="resourceScrapIron" count="20,60" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="2,6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
+</append>
+
+<!-- Increase wood harvest from pallets and pallet stacks -->
+<append xpath="/blocks/block[@name='palletEmpty']">
+	<drop event="Harvest" name="resourceWood" count="1,5" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="0,2" prob="0.15" tag="allHarvest"/>
+</append>
+
+<append xpath="/blocks/block[@name='palletEmptyStack']">
+	<drop event="Harvest" name="resourceWood" count="3,8" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="0,3" prob="0.15" tag="allHarvest"/>
 </append>
 
 
