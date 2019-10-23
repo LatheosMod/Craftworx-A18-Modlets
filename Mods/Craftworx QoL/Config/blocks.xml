@@ -38,5 +38,43 @@
 	<drop event="Harvest" name="resourceNail" count="0,3" prob="0.15" tag="allHarvest"/>
 </append>
 
+<!-- Harvest decorative car motors -->
+<set xpath="/blocks/block[@name='decoCarMotorFlat']">
+	<property name="Extends" value="decoEntityPolymerMaster"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/motorPrefab.prefab"/>
+	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/> 
+	<drop event="Harvest" name="decoCarMotorFlat" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="6,11" tag="oreWoodHarvest"/>
+	<property name="FilterTags" value="fdecor,fother,foutdoor"/>
+</set>
+
+<set xpath="/blocks/block[@name='decoCarMotorFlipped']">
+	<property name="Extends" value="decoEntityPolymerMaster"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/motor_flippedPrefab.prefab"/>
+	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/> 
+	<drop event="Harvest" name="decoCarMotorFlipped" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="6,11" tag="oreWoodHarvest"/>
+	<property name="FilterTags" value="fdecor,fother,foutdoor"/>
+</set>
+
+
 
 </craftworx>
