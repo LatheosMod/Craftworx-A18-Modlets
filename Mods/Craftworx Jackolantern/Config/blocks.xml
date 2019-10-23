@@ -1,0 +1,18 @@
+<craftworx>
+
+<!-- Lit Jack'o'Lanterns -->
+<set xpath="/blocks/block[@name='decoPumpkinJackOLantern']">
+	<property name="Class" value="Particle" />
+	<property name="Material" value="Mplants"/><property name="MaxDamage" value="50"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Light" value="0.5"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Model" value="Entities/Plants/pumpkinJackoLanternPrefab"/>
+	<property name="ParticleName" value="candleWall_flame" />
+	<property name="ParticleOffset" value="0.5,0.75,0.5" />
+	<drop event="Destroy" name="decoPumpkinJackOLantern" count="1"/>
+	<property name="EconomicValue" value="20"/>
+</set>
+
+</craftworx>
