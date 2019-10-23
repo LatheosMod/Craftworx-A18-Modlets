@@ -28,14 +28,14 @@
 </recipe>
 
 <!-- Ammunition -->
-<recipe name="ammoArrowScrapIron" count="2"> 
-	<ingredient name="resourceScrapIron" count="4"/>
+<recipe name="ammoArrowScrapIron" count="1"> 
+	<ingredient name="resourceScrapIron" count="3"/>
 	<ingredient name="resourceWood" count="1"/>
 	<ingredient name="resourceScrapPolymers" count="2"/>
 </recipe>
 
-<recipe name="ammoCrossbowBoltScrapIron" count="2"> 
-	<ingredient name="resourceScrapIron" count="4"/>
+<recipe name="ammoCrossbowBoltScrapIron" count="1"> 
+	<ingredient name="resourceScrapIron" count="3"/>
 	<ingredient name="resourceWood" count="1"/>
 	<ingredient name="resourceScrapPolymers" count="2"/>
 </recipe>
