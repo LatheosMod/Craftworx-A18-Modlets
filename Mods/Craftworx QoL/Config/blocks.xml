@@ -4,14 +4,17 @@
 <!-- Add Jail Bars and Doors to Workbench -->
 <append xpath="/blocks/block[@name='jailDoorStatic']">
 	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="8"/> </property>
 </append>
 
 <append xpath="/blocks/block[@name='jailDoorStaticCentered']">
 	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="8"/> </property>
 </append>
 
 <append xpath="/blocks/block[@name='jailBars']">
 	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="8"/> </property>
 </append>
 
 <!-- Add resources for havesting crushed cars -->
